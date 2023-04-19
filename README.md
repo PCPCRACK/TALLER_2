@@ -1,7 +1,7 @@
 # TALLER_2
 
 #Nombres Integrantes: PD: escriban sus names
-David Andres Rojas Villarreal.
+ *David Andres Rojas Villarreal.
 
  *
  *
