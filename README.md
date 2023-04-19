@@ -2,8 +2,9 @@
 
 #Nombres Integrantes: PD: escriban sus names
 David Andres Rojas Villarreal.
-*
-*
+
+ *
+ *
 
 1. Desarrollar un programa que ingrese un número entero n y separe todos los digitos que componen el número.
 2. Desarrollar un programa que ingrese un número flotante n y separe su parte entera de la parte decimal, y luego entrege los digitos tanto de la parte entera como de la decimal.
