@@ -1,4 +1,10 @@
 # TALLER_2
+## "TODOS LOS PUNTOS DEBEN TENER UNA FUNCION MINIMO"
+## "TODOS LOS PUNTOS DEBEN TENER UNA FUNCION MINIMO"
+## "TODOS LOS PUNTOS DEBEN TENER UNA FUNCION MINIMO"
+## "TODOS LOS PUNTOS DEBEN TENER UNA FUNCION MINIMO"
+## "TODOS LOS PUNTOS DEBEN TENER UNA FUNCION MINIMO"
+## "TODOS LOS PUNTOS DEBEN TENER UNA FUNCION MINIMO"
 
 #Nombres Integrantes: PD: escriban sus names.
 
@@ -9,6 +15,39 @@
 
 1. Desarrollar un programa que ingrese un número entero n y separe todos los digitos que componen el número.
 2. Desarrollar un programa que ingrese un número flotante n y separe su parte entera de la parte decimal, y luego entrege los digitos tanto de la parte entera como de la decimal.
+```python
+from math import modf
+
+def Sep(n : float):
+    return modf(n)
+
+
+if __name__ == "__main__":
+from math import modf #importa una funcion
+
+def Sep(n : float):
+
+    #retorna el valor de una funcion dentro de otra funcion
+    return modf(n)
+
+
+if __name__ == "__main__":
+    
+    #pide un valor flotante
+    n = float(input("ingrese un numero con decimales: "))
+
+    #crea una lista vacia
+    lista = list()
+
+    #llama una funcion y almacena la informacion que retorna la funcion en la lista
+    lista = Sep(n)
+
+    #imprime los resultados
+    print(f"su parte entera es {(lista[1])} y su decimal {(lista[0])} numero inicial {n}")
+```
+
+
+
 3. Desarrollar un programa que permita ingresar dos números enteros y determinar si se tratan de números espejos.
 4. Diseñar una función que permita calcular una aproximación de la función coseno alrededor de 0 para cualquier valor x (real), utilizando los primeros n términos de la serie de Taylor. **nota:** use *math* para traer la función coseno y mostrar la diferencia entre el valor real y la aproximación. Con cuántos valores de la serie, se tienen errores del 10%, 1%, 0.1% y 0.001%.
 $$cos(x) \approx cos(x,n) \approx \sum_{i=0}^{n} (-1)^i \frac{x^{2i}}{(2i)!}$$
