@@ -1,5 +1,10 @@
 # TALLER_2
 
+#Nombres Integrantes: PD: escriban sus names
+1. David Andres Rojas Villarreal
+2.
+3.
+
 1. Desarrollar un programa que ingrese un número entero n y separe todos los digitos que componen el número.
 2. Desarrollar un programa que ingrese un número flotante n y separe su parte entera de la parte decimal, y luego entrege los digitos tanto de la parte entera como de la decimal.
 3. Desarrollar un programa que permita ingresar dos números enteros y determinar si se tratan de números espejos.
