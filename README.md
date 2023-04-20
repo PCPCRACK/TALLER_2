@@ -89,6 +89,26 @@ salida: [1, True]
 </table>
 </center>
 
+
+```python
+def diferencia_listas(lista1, lista2):
+    
+     #Se calcula la diferencia entre los conjuntos: los elementos que están en el conjunto1 pero no en el conjunto2
+    return list(set(lista1) - set(lista2))
+
+if __name__ == "__main__":
+    
+    #pide valores
+    lista1 = input("elementos lista 1: ")
+    lista2 = input("elementos lista 2: ")
+    
+    #llama la funcion y diferencia se vuelve una lista
+    diferencia = diferencia_listas(lista1, lista2)
+    
+    #imprime el resultado
+    print(diferencia)
+```
+
 9. Resolver el punto 7 del [taller 1](https://github.com/fegonzalez7/pdc_unal_clase8) usando operaciones con vectores.
 
 10. Desarrollar un algoritmo que determine si una matriz es mágica. Se dice que una matriz cuadrada es mágica si la suma de cada una de sus filas, de cada una de sus columnas y de cada diagonal es igual.
