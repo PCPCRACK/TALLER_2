@@ -53,12 +53,17 @@ def Minc(n : int,a : int,i : int):
   if i%n == 0 and i%a == 0 : 
     return i
   else:
+  
     # Condicion de la funcion recursiva
     return Minc(n,a,i+1)
 
 if __name__ == "__main__":
+
+  #pide valores
   n = int(input("Ingrese un numero: "))
   a = int(input("Ingrese un numero: "))
+  
+  #establece un contador en 2
   i = 2
 
   #llama la funcion
