@@ -10,7 +10,7 @@
 
  
  * David Andres Rojas Villarreal.
- *
+ * Jürgen Housseman Tapiero Orozco.
  *
 
 1. Desarrollar un programa que ingrese un número entero n y separe todos los digitos que componen el número.
